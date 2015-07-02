@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/iv_btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/btn_back_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tv_name_more"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eee"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_act_more_mapmodesetting"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_all_height"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_act_more_voip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/rl_act_more_mapmodesetting"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_act_more_voip_go"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:src="@drawable/arrowright" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_act_more_locationtime"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_all_height"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_act_more_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/rl_act_more_locationtime"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_act_more_info_go"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:src="@drawable/arrowright" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_act_more_version"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_all_height"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_act_more_exercise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/rl_act_more_version"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_act_more_exercise_go"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:src="@drawable/arrowright" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_logout"
+                style="@style/Smile.Button.logout"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:onClick="onClick"
+                android:text="@string/logout" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/biz_pc_main_bg"
+    android:orientation="vertical" >
+  <RelativeLayout 
+      android:id="@+id/act_face"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="20dp"
+      android:clickable="true"
+      android:onClick="onClick"
+      >
+       <ImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/food" 
+            android:contentDescription="@string/desc"
+            />
+        <TextView
+            android:id="@+id/pics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_pic"
+            android:text="@string/tv_name_food"
+            android:textColor="@color/gray"
+            android:textSize="20sp" />  
+      
+  </RelativeLayout>
+<RelativeLayout
+        android:id="@+id/rl_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:onClick="onClick" >
+
+        <ImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/plan" 
+            android:contentDescription="@string/desc"
+            />
+
+        <TextView
+            android:id="@+id/pics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_pic"
+            android:text="@string/tv_name_plane"
+            android:textColor="@color/gray"
+            android:textSize="20sp" />
+    </RelativeLayout> 
+
+ <RelativeLayout
+     android:id="@+id/act_personal"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20dp"
+     android:layout_marginTop="20dp"
+     android:clickable="true"
+     android:onClick="onClick" >
+     <ImageView 
+         android:id="@+id/iv_pic1"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_centerVertical="true"
+         android:src="@drawable/icon_compute"
+         android:contentDescription="@string/desc"
+          />
+     <TextView 
+          android:id="@+id/rl_personal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:layout_toRightOf="@id/iv_pic1"
+          android:text="@string/rl_act_personal"
+          android:textColor="@color/gray"
+          android:textSize="20sp"/>
+   </RelativeLayout>  
+   
+    <RelativeLayout
+        android:id="@+id/rl_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:onClick="onClick" >
+
+        <ImageView
+            android:id="@+id/iv_pic3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:id="@+id/pics3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_pic3"
+            android:text="@string/tv_name_location"
+            android:textColor="@color/gray"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:onClick="onClick" >
+
+        <ImageView
+            android:id="@+id/iv_pic2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/more" />
+
+        <TextView
+            android:id="@+id/pics2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_pic2"
+            android:text="@string/tv_name_more"
+            android:textColor="@color/gray"
+            android:textSize="20sp" />
+    </RelativeLayout>
+   
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 应用名称 -->
+    <string name="app_name">健康饮食</string>
+    <string name="gridview1">食材</string>
+    <string name="gridview2">胃胃</string>
+    <string name="gridview3">肉肉</string>
+    <string name="gridview4">好吃</string>
+    <string name="gridview5">周边</string>
+    <string name="gridview6">更多</string>
+    <string name="gridview7">未完待续。。。</string>
+    <string name="gridview8">九宫格8</string>
+    <string name="gridview9">九宫格9</string>
+    <!-- 页面名称 -->
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_act_my_contribution">ActMyContribution</string>
+    <string name="title_activity_act_register">ActRegister</string>
+    <string name="title_activity_act_login">ActLogin</string>
+    <string name="title_activity_act_welcome">健康饮食</string>
+    <string name="title_activity_act_weather">ActWeather</string>
+    <string name="title_activity_act_location">ActLocation</string>
+    <string name="title_face">how old are u</string>
+
+    <!-- TextView名称 -->
+    <string name="tv_name_food">收藏</string>
+    <string name="tv_name_plane">近期计划</string>
+    <string name="tv_name_more">设置</string>
+    <string name="tv_name_mylocation">食材大全</string>
+    <string name="tv_name_location">周边</string>
+    <string name="tv_name_update">检查更新</string>
+    <string name="tv_name_other">其他</string>
+    <string name="login_account">账号 </string>
+    <string name="login_username_hint">请输入用户名&#8230;</string>
+    <string name="login_pwd">密码 </string>
+    <string name="login_password_hint">请输入密码&#8230;</string>
+    <string name="login_email_hint">请再次输入密码&#8230;</string>
+    <string name="login_email_address">请输入邮箱地址&#8230;</string>
+    <string name="login_pwd_again">确认密码 </string>
+    <string name="login_email">邮箱 </string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="logout">退出</string>
+    <string name="register_txt1">还没有账号？</string>
+    <string name="register_txt2">立即注册 ></string>
+
+    <!-- Home页面标题 -->
+    <string name="tv_title_first">空气</string>
+    <string name="tv_title_second">地图</string>
+    <string name="tv_title_third">其他</string>
+    <string name="act_more_event_title">当前活动</string>
+    <string name="tv_act_more_center">充值中心</string>
+    <string name="tv_act_more_info">资讯</string>
+    <string name="tv_act_more_voip">VOIP</string>
+    <string name="tv_act_more_talk">点击通话</string>
+    <string name="tv_act_more_exercise">当前活动</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc">Hello world!</string>
+
+    <!-- 设置页面标题 -->
+    <string name="rl_act_more_mapmodesetting">地图模式</string>
+    <string name="rl_act_more_locationtime">定位时差</string>
+    <string name="rl_act_personal">食材预算</string>
+    <string name="rl_act_more_version">版本</string>
+
+    <!-- 选择显示 -->
+    <string name="choice_item_mapmodem_general">普通地图</string>
+    <string name="choice_item_mapmodem_real">卫星地图</string>
+
+    <!-- 提示信息 -->
+    <string name="notice_info_back_logout">再按一次退出程序</string>
+    <string name="title_activity_act_my_version">ActMyVersion</string>
+    <string name="title_activity_food_info_detail">FoodInfoDetail</string>
+    <string name="title_activity_act_compute">ActCompute</string>
+    <string name="title_activity_sss">Sss</string>
+
+</resources>

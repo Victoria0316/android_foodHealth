@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_theme">#489cfa</color>
+    <color name="base_color_text_gray">#9fa0a0</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="transparent">#00000000</color>
+    <color name="theme_bg_color">#f0f2f5</color>
+    <color name="gray">#ff808080</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+    <color name="red">#DC143C</color> <!-- 红色 -->
+    <color name="ivory">#FFFFF0</color> <!-- 象牙色 -->
+    <color name="lightyellow">#FFFFE0</color> <!-- 亮黄色 -->
+    <color name="yellow">#FFFF00</color> <!-- 黄色 -->
+    <color name="snow">#FFFAFA</color> <!-- 雪白色 -->
+    <color name="floralwhite">#FFFAF0</color> <!-- 花白色 -->
+    <color name="lemonchiffon">#FFFACD</color> <!-- 柠檬绸色 -->
+    <color name="cornsilk">#FFF8DC</color> <!-- 米绸色 -->
+    <color name="seashell">#FFF5EE</color> <!-- 海贝色 -->
+    <color name="lavenderblush">#FFF0F5</color> <!-- 淡紫红 -->
+    <color name="papayawhip">#FFEFD5</color> <!-- 番木色 -->
+    <color name="blanchedalmond">#FFEBCD</color> <!-- 白杏色 -->
+    <color name="mistyrose">#FFE4E1</color> <!-- 浅玫瑰色 -->
+    <color name="bisque">#FFE4C4</color> <!-- 桔黄色 -->
+    <color name="moccasin">#FFE4B5</color> <!-- 鹿皮色 -->
+    <color name="navajowhite">#FFDEAD</color> <!-- 纳瓦白 -->
+    <color name="peachpuff">#FFDAB9</color> <!-- 桃色 -->
+    <color name="gold">#FFD700</color> <!-- 金色 -->
+    <color name="pink">#FFC0CB</color> <!-- 粉红色 -->
+    <color name="lightpink">#FFB6C1</color> <!-- 亮粉红色 -->
+    <color name="orange">#FFA500</color> <!-- 橙色 -->
+    <color name="lightsalmon">#FFA07A</color> <!-- 亮肉色 -->
+    <color name="darkorange">#FF8C00</color> <!-- 暗桔黄色 -->
+    <color name="coral">#FF7F50</color> <!-- 珊瑚色 -->
+    <color name="black">#000000</color> <!-- 黑色 -->
+    <color name="blue">#0099FF</color> <!-- 蓝色 -->
+
+</resources>

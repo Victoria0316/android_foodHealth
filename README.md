@@ -1,4 +1,5 @@
 # android_foodHealth
 android_app
-this is a android app
-sdk-19
+just for health eating and funning.
+life is coding.
+

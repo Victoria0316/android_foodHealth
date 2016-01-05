@@ -1,4 +1,5 @@
 # android_foodHealth
 android_app
-this is a android app
-sdk-19
+life is coding yeah!
+this is a funning app,it can privode a guidance for your diet.
+
